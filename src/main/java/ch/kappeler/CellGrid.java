@@ -8,10 +8,6 @@ class CellGrid {
         this.cellGridStates = cellGridStates;
     }
 
-    boolean[][] getStates() {
-        return cellGridStates;
-    }
-
     void update() {
         final int ROW_LENGTH = this.cellGridStates.length;
         final int COL_LENGTH = this.cellGridStates[0].length;
@@ -26,6 +22,10 @@ class CellGrid {
         }
 
         this.cellGridStates = newCellGrid;
+    }
+
+    boolean[][] getStates() {
+        return cellGridStates;
     }
 
     private int getNumberOfAliveNeighbors(boolean[][] cellStates, int row, int col) {
