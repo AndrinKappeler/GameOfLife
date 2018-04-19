@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GameLoop">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/GameLoop.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

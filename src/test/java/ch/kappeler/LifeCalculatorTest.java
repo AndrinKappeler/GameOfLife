@@ -31,7 +31,7 @@ public class LifeCalculatorTest {
             "false, 7, false",
             "false, 8, false"
     })
-    public void test_calculate(boolean isAliveInit, int numberOfNeighbours, boolean isAliveExpected) {
-        assertEquals(isAliveExpected, LifeCalculator.isAlive(isAliveInit, numberOfNeighbours));
+    public void test_calculate(boolean isAliveInit, int numberOfNeighbors, boolean isAliveExpected) {
+        assertEquals(isAliveExpected, LifeCalculator.isAlive(isAliveInit, numberOfNeighbors));
     }
 }

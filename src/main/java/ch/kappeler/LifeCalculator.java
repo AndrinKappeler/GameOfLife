@@ -2,11 +2,11 @@ package ch.kappeler;
 
 class LifeCalculator {
 
-    static boolean isAlive(boolean isAlive, int neighbourCells) {
+    static boolean isAlive(boolean isAlive, int NeighborCells) {
         if (isAlive) {
-            isAlive = neighbourCells > 1 && neighbourCells < 4;
+            isAlive = NeighborCells > 1 && NeighborCells < 4;
         } else {
-            isAlive = neighbourCells == 3;
+            isAlive = NeighborCells == 3;
         }
         return isAlive;
     }
